@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>청년떡집</title>
+    <script src="js/jquery-3.7.1.min.js"></script>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/youngmil.css">
+    <link rel="stylesheet" href="css/m_youngmil.css" media="screen and (max-width: 440px)">
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <h1><a href="#"><img src="img/logo.png" alt="청년떡집 로고"></a></h1>
+            <ul class="tnb">
+                <li class="tnb_left">
+                    <ul class="sub_tnb">
+                        <li><a href="#">청년떡집 소개</a></li>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">상품 Q&A</a></li>
+                    </ul>
+                </li>
+                <li class="tnb_right">
+                    <ul class="sub_tnb">
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="#">회원가입</a></li>
+                        <li><a href="#">주문조회</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <a href="#" class="m_menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <ul class="gnb_area">
+                <li><a href="#" class="btn_close"><i class="fa-solid fa-xmark fa-xl" style="color: #f5f5f5;"></i></a></li>
+                <li class="gnb"><a href="#">TV 속 상품</a></li>
+                <li class="gnb"><a href="#">선물세트</a></li>
+                <li class="gnb"><a href="#">우리한끼</a></li>
+                <li class="gnb"><a href="#">크림떡</a></li>
+                <li class="gnb"><a href="#">청년제과</a></li>
+                <li class="search">
+                    <input type="search"  placeholder="찾으시는 상품이 있으신가요?">
+                    <input type="image" src="img/ico_search.png" alt="검색">
+                </li>
+                <li class="cart"><a href="#"><img src="img/ico_cart2.png" alt=""></a></li>
+            </ul>
+            <p class="header_m_title">
+                <span>"전통에 대한<br> 트렌디한 재해석"</span>
+                "떡"이라는 이름 그 자체로 <br>전 세계 사람들의 트렌디한 <br>디저트로 인정받고자 하는 <br>청년떡집의 새로운 고민에서 <br>탄생했습니다.
+            </p>
+        </header>
+        <main>
+            <section class="main_visual">
+                <!-- Swiper -->
+                <div class="swiper main_bg">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="visual_text">
+                                <p class="s_text">하나를 구매해도</p>
+                                <h2>쭉쭉 치아바떡<span>무료증정</span></h2>
+                                <p class="text">
+                                    상큼한 크랜베리 & 고소한 올리브 조화<br>
+                                    치아바떡 구매하러 가기 >>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="visual_text">
+                                <span>프리미엄 선물 세트</span>
+                                <h2>황금으로 전하는 귀한 마음<span>황금떡 선물세트</span></h2>
+                                <p class="text">
+                                    자세히 보러 가기 >>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="visual_text">
+                                <span>선물 세트 대량 구매</span>
+                                <h2>특별한 가격, 더 많은 혜택<span>대량구매 신청하기</span></h2>
+                                <p class="text">
+                                    자세히 보러 가기 >>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="visual_text">
+                                <p class="s_text">청년떡집 신제품 출시</p>
+                                <h2>맛있음이 꽉 찼다!<span>팥팥팥 찹쌀떡</span></h2>
+                                <p class="text">
+                                    자세히 보러 가기 >>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <!-- <ul class="fixed_movebar">
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul> -->
+            </section>
+            <section class="top3">
+                <div class="inner">
+                    <div class="title_area">
+                        <h3>청년떡집 베스트 상품</h3>
+                        <span class="s_title">
+                            떡집 사장이 강력 추천합니다!
+                        </span>
+                    </div>
+                    <ul class="top3_list">
+                        <li>
+                            <figure></figure>
+                            <h4>찐 바나나 우유떡</h4>
+                            <p class="text">달콤한 바나나가 우유크림에 퐁당~ 쫀득한 식감의 떡을 한 입 먹으면 바나나우유 향이 입 안 가득 퍼져요! 거기에 직접 구워낸 수제 카스텔라 가루로 쫀득한 식감에 부드러움까지!</p>
+                        </li>
+                        <li>
+                            <figure></figure>
+                            <h4>우리 한끼 단백질 찰밥바 흑임자</h4>
+                            <p class="text">아직도 하루 중 가장 바쁘고 허기진 아침에 빈속으로 나가시나요? 그런 고민은 이제 그만! 영양만점 간편 한 끼 단백질 찰밥바 흑임자로 든든하게 아침 활기를 채워보세요.</p>
+                        </li>
+                        <li>
+                            <figure></figure>
+                            <h4>커피과자설기</h4>
+                            <p class="text">쫄깃한 설기로 빈틈없이 스며드는 오리지널 카라멜비스킷의 향연! 안 먹어 본 사람은 있어도 한 번만 먹어본 사람은 없다는 바로 그 '커피과자' 크럼블과 진한 스프레드가 가득! 한번 잡솨봐~</p>
+                        </li>
+                    </ul>
+                    <a href="#">더보기</a>
+                </div>
+            </section>
+            <!-- //top3 -->
+
+            <section class="video_area">
+                <div class="video_bg">
+                    <video muted autoplay loop>
+                        <source src="img/greentea.mp4" type="video/mp4">
+                    </video>
+                    <video muted autoplay loop>
+                        <source src="img/tiramishu01.mp4" type="video/mp4">
+                    </video>
+                    <video muted autoplay loop>
+                        <source src="img/inzermi.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <video muted autoplay loop class="m_video">
+                    <source src="img/mayak.mp4" type="video/mp4">
+                </video>
+            </section>
+            <!-- //video_area -->
+
+            <section class="promotion">
+                <div class="inner">
+                    <div class="title_area">
+                        <h3>어디를 데려가도, 떡!</h3>
+                        <span class="s_title">
+                            청년의 떡은 우리를 실망시키는 법이 없죠.<br>
+                            언제 어디서, 누구랑 먹어도 제 몫을 다 해내는 기특한 맛
+                        </span>
+                        <strong>일상의 곳곳에서 청년떡집을 만나보세요!</strong>
+                    </div>
+                    <ul class="promotion_list">
+                        <li>
+                            <figure></figure>
+                            <div class="prom_text">
+                                <h4 class="b_text">치아바떡</h4>
+                                <p class="text">
+                                    고깃기름에 구워낸 <span>겉바속쫀 가래떡</span> 먹어봤어요?<br>
+                                    이젠 꼬숩한 가래떡을 먹기 위해 고기를 굽는다는 소문이...!
+                                </p>
+                                <div class="move">
+                                    <div class="left">
+                                        <img src="img/img_chiaba.png" alt="치아바떡">
+                                        <div class="left_text">
+                                            <p class="b_text">치아바떡</p>
+                                            <a href="#">구매 바로가기 <span></span></a>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="cart"><figure></figure></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <figure></figure>
+                            <div class="prom_text">
+                                <h4 class="b_text">딸기크림떡</h4>
+                                <p class="text">
+                                    <span>"등산할 때 하나씩 챙겨가서 <br>당 떨어질 때 먹으면 딱이에요"</span>산 정상에서 맛 보는 구름같은 달콤함이란!
+                                </p>
+                                <div class="move">
+                                    <div class="left">
+                                        <img src="img/img_Dalgicream.png" alt="딸기크림떡">
+                                        <div class="left_text">
+                                            <p class="b_text">딸기크림떡</p>
+                                            <a href="#">구매 바로가기 <span></span></a>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="cart"><figure></figure></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <figure></figure>
+                            <div class="prom_text">
+                                <h4 class="b_text">인절미꿀호떡</h4>
+                                <p class="text">
+                                    친구들이랑 피크닉갈 때 한 상자 챙겨야죠~<br>
+                                    <span>바람만큼 기분 좋은 꿀호떡</span>이<br>
+                                    달콤한 하루를 완성해 줄 거에요
+                                </p>
+                                <div class="move">
+                                    <div class="left">
+                                        <img src="img/img_hoDeok.png" alt="인절미꿀호떡">
+                                        <div class="left_text">
+                                            <p class="b_text">인절미꿀호떡</p>
+                                            <a href="#">구매 바로가기 <span></span></a>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="cart"><figure></figure></a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- //promotion -->
+
+            <section class="affiliate">
+                <div class="inner">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="img/Affiliate_woozooin_pizza.png" alt="제휴사 우주인피자">
+                                <p class="aff_name">우주인피자</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/Affiliate_mom_and_daddy.png" alt="제휴사 맘앤대디">
+                                <p class="aff_name">맘앤대디</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/Affiliate_armored_fresh.png" alt="제휴사 아머드프레시">
+                                <p class="aff_name">아머드 프레시</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="notice">
+                <div class="inner">
+                    <ul>
+                        <li class="show1">
+                            <h5 class="blind">든든 우리 한끼 프로모션</h5>
+                            <a href="#">
+                                <div class="boxB">
+                                    <div class="box_text">
+                                        <p class="box_title">우리쌀 꿀설기 3종 세트</p>
+                                        <p class="text">잣 + 쑥 + 인절미</p>
+                                        <del>정상가 35,700원</del>
+                                        <ins>할인가 28,560원</ins>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="boxS s1">
+                                    <div class="box_text">
+                                        <p class="box_title">찰밥바 3종 세트</p>
+                                        <p class="text">단백질 찰밥바 + 흑임자 찰밥바 + 쑥찰밥바</p>
+                                        <del>정상가 36,700원</del>
+                                        <ins>할인가 33,000원</ins>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="boxS s2">
+                                    <div class="box_text">
+                                        <p class="box_title">구워먹는 꿀호떡 3종 세트</p>
+                                        <p class="text">인절미꿀호떡 + 쑥인절미꿀호떡 + 구워먹는마약떡</p>
+                                        <del>정상가 44,700원</del>
+                                        <ins>할인가 35,760원</ins>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="show2">
+                            <h5 class="blind">COOL한 홈캉스 아이스크림떡 기획전</h5>
+                            <a href="#">
+                                <div class="boxS s1">
+                                    <div class="box_text">
+                                        <p class="box_title">찐-아이스크림 SET</p>
+                                        <p class="text">잔망루피 딸기크림떡 + 찐 우유떡 + 찐 바나나우유떡 <span>각 1BOX</span></p>
+                                        <del>정상가 41,700원</del>
+                                        <ins>할인가 37,500원</ins>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="boxS s2">
+                                    <div class="box_text">
+                                        <p class="box_title">아이스 케이크 크림떡 SET</p>
+                                        <p class="text">뉴욕치즈케이크 크림떡 + 딸기크림떡 + 범벅초코 크림떡 <span>각 1BOX</span></p>
+                                        <del>정상가 44,700원</del>
+                                        <ins>할인가 40,230원</ins>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="boxB">
+                                    <div class="box_text">
+                                        <p class="box_title">아이스 아메리카노랑 딱 SET</p>
+                                        <p class="text">티라미슈 크림떡 + 톡톡 옥수수 크림떡 + 인생떡 <span>각 1BOX</span></p>
+                                        <del>정상가 47,700원</del>
+                                        <ins>할인가 44,230원</ins>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="show3">
+                            <h5 class="blind">메가 히트상품 말랑말랑 꿀오랑</h5>
+                            <a href="#">
+                                <div class="boxS s1">
+                                    <div class="box_text">
+                                        <p class="box_title">꿀조합 SET</p>
+                                        <p class="text">베리 꿀오랑 + 캐슈넛 꿀오랑</p>
+                                        <del>정상가 28,800원</del>
+                                        <ins>할인가 25,900원</ins>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="boxB">
+                                    <div class="box_text">
+                                        <p class="box_title">메가히트 3종 SET</p>
+                                        <p class="text">오리지날 꿀오랑 + 인절미 꿀오랑 + 흑임자 꿀오랑</p>
+                                        <del>정상가 41,900원</del>
+                                        <ins>할인가 37,900원</ins>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="boxS s2">
+                                    <div class="box_text">
+                                        <p class="box_title">이색 꿀오랑 SET</p>
+                                        <p class="text">딸기 꿀오랑 + 민트초코 꿀오랑</p>
+                                        <del>정상가 31,800원</del>
+                                        <ins>할인가 28,600원</ins>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <footer>
+               <div class="inner">
+                   <img src="img/footer_logo.png" alt="footer 로고">
+                    <div class="footer_area">
+                        <div class="footer_top">
+                            <a href="#"><strong>개인정보처리방침</strong></a>
+                            <a href="#">이용약관</a>
+                            <a href="#">이용안내</a>
+                            <div class="sns">
+                                <a href="#"><i class="fa-brands fa-instagram fa-xl" style="color: #161616;"></i></a>
+                                <a href="#"><i class="fa-brands fa-facebook-f" style="color: #161616;"></i></a>
+                            </div>
+                        </div>
+                        <div class="footer_bottom">
+                            <span><strong>상호</strong>: (주)아머드 프레시</span>
+                            <span><strong>대표</strong>: 오경아</span>
+                            <span><strong>사업자등록번호</strong>: 108-81-29256</span>
+                            <span><strong>통신판매업신고</strong>: 2012-서울서초-0972호</span>
+                            <a href="#">[사업자정보확인]</a><br>
+                            <span class="call"><strong>전화</strong>: 02-597-5032</span>
+                            <span><strong>팩스</strong>: 02-523-5781</span>
+                            <span><strong>이메일</strong>: youngmil@armoredfresh.com</span>
+                            <span class="address"><strong>주소</strong>: 06693 서울특별시 서초구 방배천로 12-4(방배동) 천일빌딩 2~5층</span>
+                            <span><strong>개인정보보호책임자</strong>: 윤승국</span><br>
+                            <strong>안전거래를 위해 결제시 저희 쇼핑몰에서 가입한 PG사의 구매안전서비스를 이용하실 수 있습니다.</strong>
+                            <a href="#">[서비스가입사실확인]</a>
+                            <p class="copy">Copyright &copy; 청년떡집. All rights reserved.</p>
+                        </div>
+                    </div>
+               </div>
+            </footer>
+        </main>
+    </div>
+    
+    <script>
+        $gnb = $('.gnb_area');
+        $close = $('.btn_close');
+        
+        $(function() {
+            $('.m_menu').on('click', function() {
+                $gnb.fadeIn();
+            })
+            $('.btn_close').on('click', function() {
+                $gnb.fadeOut();
+            })
+        })
+
+        /* swiper 영역 */
+        var swiper = new Swiper(".main_bg", {
+          spaceBetween: 10,
+          centeredSlides: true,
+          autoplay: {
+            delay: 6000,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        });
+      </script>
+</body>
+</html>
