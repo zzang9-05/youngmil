@@ -303,7 +303,7 @@ section .swiper .swiper-wrapper .swiper-slide:nth-child(4)   {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 .promotion ul li    {
@@ -311,12 +311,14 @@ section .swiper .swiper-wrapper .swiper-slide:nth-child(4)   {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    margin-bottom: 40px;
     box-shadow: rgba(0, 0, 0, 0.15) -1.95px 1.95px 2.6px;
+}
+.promotion ul li + li   {
+    margin-top: 100px;
 }
 .promotion ul li:nth-child(2)   {
     position: relative;
-    top: 0; right: -20%;
+    top: 0; right: 0;
     flex-direction: row-reverse;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
@@ -348,7 +350,7 @@ section .swiper .swiper-wrapper .swiper-slide:nth-child(4)   {
     padding-top: 20px;
     margin-bottom: 40px;
     font-family: 'MangoDdobak-B';
-    font-size: 36px;
+    font-size: 50px;
     font-weight: 700;
     color: #D4B672; 
 }
@@ -445,10 +447,13 @@ section .swiper .swiper-wrapper .swiper-slide:nth-child(4)   {
 .affiliate ul {
     display: flex;
     justify-content: space-between;
+    width: 100%;
+}
+.affiliate ul li    {
+    width: calc(100%/3 - 20px);
 }
 .affiliate ul li img {
-    width: 340px;
-    height: 178px;
+    width: 100%;
     margin-bottom: 5px;
 }
 .affiliate ul li p  {
@@ -504,6 +509,7 @@ section .swiper .swiper-wrapper .swiper-slide:nth-child(4)   {
 }
 .notice ul li a > .boxS > .box_text   {
     padding: 25% 0;
+    box-sizing: border-box;
 }
 .notice ul li a > div > .box_text .box_title  {
     margin-bottom: 15px;
